@@ -1,0 +1,80 @@
+mat-card-header {
+  margin-bottom: 32px;
+}
+
+mat-form-field {
+  width: 40vw !important;
+}
+
+.user-card {
+  margin: 64px;
+  background-color: #d9d9d9;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex: 1 1 auto;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name {
+  font-size: 34px;
+
+}
+
+.email {
+  font-size: 28px;
+  color: #6B7375;
+
+}
+
+.header-item {
+  flex: 1 1 45%;
+}
+
+mat-form-field {
+  display: block;
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+@media (max-width: 768px) {
+  .user-card {
+    margin: 16px;
+    flex-direction: column;
+  }
+
+  .name {
+    font-size: 24px;
+  }
+
+  .email {
+    font-size: 18px;
+  }
+
+  mat-form-field {
+    width: 80vw !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .user-card {
+    margin: 8px;
+  }
+
+  .name {
+    font-size: 20px;
+  }
+
+  .email {
+    font-size: 16px;
+  }
+
+  mat-form-field {
+    width: 80vw !important;
+  }
+}

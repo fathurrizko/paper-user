@@ -1,0 +1,64 @@
+.container {
+    margin: 24px;
+    border-radius: 14px;
+    overflow: hidden;
+}
+
+th {
+    background-color: #e0e0e0 !important;
+    color: black;
+    font-weight: 600;
+}
+
+td {
+    background-color: white;
+    color: black;
+}
+
+.table-wrapper {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    width: 100%;
+}
+
+.text-none {
+    text-decoration: none;
+    color: #000000;
+}
+
+.center-cell {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.centered-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    text-align: center;
+    flex-direction: column;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 16px;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  
+  .page-title {
+    margin: 0;
+    font-size: 24px;
+    flex: 1 1 auto;
+  }
+  
+  .search-field {
+    width: 20vh;
+    // min-width: 200px;
+    flex: 1 1 auto;
+  }
+  
